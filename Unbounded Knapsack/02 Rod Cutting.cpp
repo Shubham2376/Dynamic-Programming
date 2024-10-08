@@ -35,5 +35,5 @@ int main(){
     return 0;
 }
 
-// Time complexity : O(n*L) where n is the size of array(length or price) and L is length of the rod
-// Space complexity : O(n*L)
+// Time complexity : O(n*L) -> O(n^2) or O(L^2) where n is the size of array(length or price) and L is length of the rod
+// Space complexity : O(n*L) -> O(n^2) or O(L^2)
