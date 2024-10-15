@@ -61,7 +61,7 @@ int main(){
         return 0;
     }
     // if sum of array is less than subset sum then there is no subset whose sum is equal to taget sum
-    if(subsetSum > sumOfArray) //
+    if(subsetSum > sumOfArray)
     { 
         cout << 0;
         return 0;
@@ -69,3 +69,6 @@ int main(){
     cout << findTargetSumWays(nums,subsetSum,n);
     return 0;
 }
+
+// Time complexity: O(n*sum)
+// Space complexity: O(n*sum
